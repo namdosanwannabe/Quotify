@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="assets/images/icon.png"
+      type="image/x-icon"
+    />
+    <title>Quotify</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul>
+            <li class="nav-item">
+              <a href="#" class="logo">Quotify</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" target="_blank" class="github">
+                GitHub
+                <ion-icon name="open-outline" class="icon--open"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <h1>
+          Discover Your Daily Dose Of Inspiration.
+          <br />
+          <span class="blue-text">Start Generating Quotes Today.</span>
+        </h1>
+
+        <div class="quotes-wrapper">
+          <div class="quotes-content">
+            <ion-icon name="copy-outline" class="icon icon--copy"></ion-icon>
+
+            <div class="quotes">
+              <p class="quotes-paragraph">Click Generate to Start</p>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <select class="button button--category" id="dropdownSelect">
+              <option value="category">Category</option>
+              <option value="age">Age</option>
+              <option value="alone">Alone</option>
+              <option value="amazing">Amazing</option>
+              <option value="anger">Anger</option>
+              <option value="architecture">Architecture</option>
+              <option value="art">Art</option>
+              <option value="attitude">Attitude</option>
+              <option value="beauty">Beauty</option>
+              <option value="best">Best</option>
+              <option value="birthday">Birthday</option>
+              <option value="business">Business</option>
+              <option value="car">Car</option>
+              <option value="change">Change</option>
+              <option value="communication">Communication</option>
+              <option value="computers">Computers</option>
+              <option value="cool">Cool</option>
+              <option value="courage">Courage</option>
+              <option value="dad">Dad</option>
+              <option value="dating">Dating</option>
+              <option value="death">Death</option>
+              <option value="design">Design</option>
+              <option value="dreams">Dreams</option>
+              <option value="education">Education</option>
+              <option value="environmental">Environmental</option>
+              <option value="equality">Equality</option>
+              <option value="experience">Experience</option>
+              <option value="failure">Failure</option>
+              <option value="faith">Faith</option>
+              <option value="family">Family</option>
+              <option value="famous">Famous</option>
+              <option value="fear">Fear</option>
+              <option value="fitness">Fitness</option>
+              <option value="food">Food</option>
+              <option value="forgiveness">Forgiveness</option>
+              <option value="freedom">Freedom</option>
+              <option value="friendship">Friendship</option>
+              <option value="funny">Funny</option>
+              <option value="future">Future</option>
+              <option value="god">God</option>
+              <option value="good">Good</option>
+              <option value="government">Government</option>
+              <option value="graduation">Graduation</option>
+              <option value="great">Great</option>
+              <option value="happiness">Happiness</option>
+              <option value="health">Health</option>
+              <option value="history">History</option>
+              <option value="home">Home</option>
+              <option value="hope">Hope</option>
+              <option value="humor">Humor</option>
+              <option value="imagination">Imagination</option>
+              <option value="inspirational">Inspirational</option>
+              <option value="intelligence">Intelligence</option>
+              <option value="jealousy">Jealousy</option>
+              <option value="knowledge">Knowledge</option>
+              <option value="leadership">Leadership</option>
+              <option value="learning">Learning</option>
+              <option value="legal">Legal</option>
+              <option value="life">Life</option>
+              <option value="love">Love</option>
+              <option value="marriage">Marriage</option>
+              <option value="medical">Medical</option>
+              <option value="men">Men</option>
+              <option value="mom">Mom</option>
+              <option value="money">Money</option>
+              <option value="morning">Morning</option>
+              <option value="movies">Movies</option>
+              <option value="success">Success</option>
+            </select>
+
+            <button class="button button--generate">
+              Generate
+              <ion-icon name="dice-outline" class="icon icon--dice"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="footer-logo">Quotify</a>
+        <p class="copyright">
+          Namdosanwannabe <span>|</span> Copyright &copy;
+          <span class="date">2024</span>
+        </p>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
