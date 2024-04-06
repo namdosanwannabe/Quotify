@@ -39,7 +39,6 @@ a:visited {
 }
 
 /* HEADER */
-
 .header {
   padding: 4rem 0;
 }
@@ -175,9 +174,10 @@ h1 span {
 }
 
 .footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   background-color: var(--color-bright-gray-light);
-
-  margin-top: 9.6rem;
 }
 
 .footer {
@@ -246,6 +246,10 @@ h1 span {
 @media (max-width: 24em) {
   h1 {
     width: auto;
+  }
+
+  .header {
+    padding: 2.4rem 0;
   }
 
   .quotes-content {
