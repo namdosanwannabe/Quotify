@@ -76,6 +76,7 @@ a:visited {
 
 /* MAIN */
 .main {
+  height: 100vh;
   padding: 6.4rem 0;
 }
 
@@ -174,14 +175,8 @@ h1 span {
 }
 
 .footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  background-color: var(--color-bright-gray-light);
-}
-
-.footer {
   padding: 3.2rem 0;
+  background-color: var(--color-bright-gray-light);
 }
 
 .footer-logo:link,
