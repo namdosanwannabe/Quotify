@@ -6,6 +6,10 @@
 
 Thanks for checking out Quotify.
 
+## This is the live version the Quotify
+
+DEMO: https://quotify-daily.netlify.app/
+
 ## Overview
 
 - Quotify is a quotes generator website built with Semantic HTML5, CSS custom properties, and powered by the Quotes API, providing users with daily inspiration through a simple, intuitive interface.
